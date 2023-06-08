@@ -7,12 +7,14 @@
         android:id="@+id/text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="left"
         android:text="This is TextView" />
 
     <ImageView
-        android:id="@+id/image_view"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="right"
         android:src="@mipmap/ic_launcher" />
 
 </FrameLayout>
